@@ -8,14 +8,21 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TrabalhoDeAndroidCalculadora"
+        android:theme="@style/Theme.PrototipoCalculadoraFinanceira"
         tools:targetApi="31">
         <activity
-            android:name=".calculadoraFGTS"
+            android:name=".Valores_Lista_FGTS_Activity"
             android:exported="false" />
         <activity
-            android:name=".TelaCalculadoraDeMargem"
+            android:name=".Adapter.Valores_Itens_list_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".CAlcFGTS_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Calc_Margem_Activity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
