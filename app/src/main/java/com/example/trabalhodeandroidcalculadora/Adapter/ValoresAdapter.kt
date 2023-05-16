@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
-import com.example.prototipocalculadorafinanceira.R
 import com.example.prototipocalculadorafinanceira.model.Valores
+import com.example.trabalhodeandroidcalculadora.R
 
 class ValoresAdapter(val contexto: Context, val lista: ArrayList<Valores>) : BaseAdapter() {
     //Retorna o tamanho da lista
@@ -27,7 +27,7 @@ class ValoresAdapter(val contexto: Context, val lista: ArrayList<Valores>) : Bas
 
     //Metodo responsável por criar a view e fazer o bind dos elementos na tela
     override fun getView(p0: Int, paramView: View?, viewGroup: ViewGroup?): View {
-        val view = LayoutInflater.from(contexto).inflate(R.layout.activity_valores_lista_fgts, viewGroup, false)
+        val view = LayoutInflater.from(contexto).inflate(R.layout.activity_valores_list_fgts, viewGroup, false)
 
         val valor = lista[p0]
 

@@ -1,4 +1,4 @@
-package com.example.prototipocalculadorafinanceira
+package com.example.trabalhodeandroidcalculadora
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,11 +9,10 @@ import android.widget.RadioButton
 import com.example.prototipocalculadorafinanceira.Adapter.ValoresAdapter
 import com.example.prototipocalculadorafinanceira.model.Valores
 
-class CAlcFGTS_Activity : AppCompatActivity() {
+class calculadoraFGTS : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_calc_fgts)
-
+        setContentView(R.layout.activity_calculadora_fgts)
         val taxJurM = 0.0025;
         val taxDeposito = 0.08;
 

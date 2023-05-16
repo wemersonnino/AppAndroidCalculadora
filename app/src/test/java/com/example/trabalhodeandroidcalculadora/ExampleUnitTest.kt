@@ -1,4 +1,4 @@
-package com.example.prototipocalculadorafinanceira
+package com.example.trabalhodeandroidcalculadora
 
 import org.junit.Test
 

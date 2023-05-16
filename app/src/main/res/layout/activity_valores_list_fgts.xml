@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Valores_Lista_FGTS_Activity">
+    tools:context=".Valores_list_fgts_Activity">
+
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="0dp"
@@ -20,7 +21,7 @@
         android:id="@+id/tvEventos"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="4dp"
         android:text="Eventos: "
         app:layout_constraintEnd_toStartOf="@id/tvValores"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,76 +31,81 @@
         android:id="@+id/tvDepMensal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="14dp"
         android:text="Deposito Mensal: "
         app:layout_constraintEnd_toStartOf="@id/tvValores"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+        app:layout_constraintTop_toBottomOf="@id/tvEventos" />
 
     <TextView
         android:id="@+id/tvValDepMensal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
         android:text="R$ "
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/tvTitle"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/tvDepMensal" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvDepMensal"
+        app:layout_constraintTop_toBottomOf="@+id/tvValores" />
+
     <TextView
         android:id="@+id/tvMesContrib"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
         android:text="Mes de Contribuição "
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintEnd_toStartOf="@id/tvValores"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/tvDepMensal" />
+        app:layout_constraintTop_toBottomOf="@id/tvDepMensal" />
+
     <TextView
         android:id="@+id/tvValMesContrib"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="R$ "
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/tvTitle"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/tvDepMensal" />
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvMesContrib"
+        app:layout_constraintTop_toBottomOf="@+id/tvValores" />
     <TextView
         android:id="@+id/tvDepTotal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Deposito Total "
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        android:layout_marginTop="14dp"
+        app:layout_constraintEnd_toStartOf="@id/tvValores"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/tvMesContrib" />
+        app:layout_constraintTop_toBottomOf="@id/tvMesContrib" />
     <TextView
         android:id="@+id/tvValDepTotal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="R$ "
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/tvTitle"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/tvDepTotal" />
+        android:layout_marginTop="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvMesContrib"
+        app:layout_constraintTop_toBottomOf="@+id/tvValMesContrib" />
     <TextView
         android:id="@+id/tvDepFinal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Deposito Final "
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        android:layout_marginTop="14dp"
+        app:layout_constraintEnd_toStartOf="@id/tvValores"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/tvDepTotal" />
+        app:layout_constraintTop_toBottomOf="@id/tvDepTotal" />
     <TextView
         android:id="@+id/tvValDepFinal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="R$ "
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/tvTitle"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/tvDepFinal" />
+        android:layout_marginTop="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvMesContrib"
+        app:layout_constraintTop_toBottomOf="@+id/tvValDepTotal" />
 
     <TextView
         android:id="@+id/tvValores"

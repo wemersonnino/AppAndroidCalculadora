@@ -1,4 +1,4 @@
-package com.example.prototipocalculadorafinanceira
+package com.example.trabalhodeandroidcalculadora
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,10 +7,10 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 
-class Calc_Margem_Activity : AppCompatActivity() {
+class TelaCalculadoraDeMargem : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_calc_margem)
+        setContentView(R.layout.activity_tela_calculadora_de_margem)
 
         val percent = 35;
         val etInputSalBene = findViewById<EditText>(R.id.etInputSalario);
