@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitleApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CALCULADORA SIMULADOR CONSIGNÁDO"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSubTilteApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_marginTop="8dp"
+        android:text="Calculadora empréstimo consignável"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitleApp"
+        app:layout_constraintStart_toStartOf="@+id/tvTitleApp"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleApp" />
+
+    <ImageView
+        android:id="@+id/ivIconPrincipal"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/tvSubTilteApp"
+        app:layout_constraintStart_toStartOf="@+id/tvSubTilteApp"
+        app:layout_constraintTop_toBottomOf="@+id/tvSubTilteApp"
+        app:srcCompat="@drawable/calculadoracoindolar" />
+
+    <ImageView
+        android:id="@+id/btnMargemConsignado"
+        android:layout_width="89dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="@+id/ivIconPrincipal"
+        app:layout_constraintTop_toBottomOf="@+id/ivIconPrincipal"
+        app:srcCompat="@drawable/btncalculadora" />
+
+    <ImageView
+        android:id="@+id/btnFGTS"
+        android:layout_width="89dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/ivIconPrincipal"
+        app:layout_constraintStart_toEndOf="@+id/btnMargemConsignado"
+        app:layout_constraintTop_toBottomOf="@+id/ivIconPrincipal"
+        app:srcCompat="@drawable/btncalculadora" />
+
+    <TextView
+        android:id="@+id/tvInputMargemConsig"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Margem Consignádo"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnMargemConsignado"
+        app:layout_constraintStart_toStartOf="@+id/btnMargemConsignado"
+        app:layout_constraintTop_toBottomOf="@+id/btnMargemConsignado" />
+
+    <TextView
+        android:id="@+id/tvInputFGTS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FGTS"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnFGTS"
+        app:layout_constraintStart_toStartOf="@+id/btnFGTS"
+        app:layout_constraintTop_toBottomOf="@+id/btnFGTS" />
+
+    <ImageView
+        android:id="@+id/btn13Salario"
+        android:layout_width="89dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="@+id/btnMargemConsignado"
+        app:layout_constraintTop_toBottomOf="@+id/tvInputMargemConsig"
+        app:srcCompat="@drawable/btncalculadora" />
+
+    <TextView
+        android:id="@+id/tvInput13Salario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cálculadora 13° Salário"
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btn13Salario"
+        app:layout_constraintStart_toStartOf="@+id/btn13Salario"
+        app:layout_constraintTop_toBottomOf="@+id/btn13Salario" />
+
+    <ImageView
+        android:id="@+id/btnSimulador"
+        android:layout_width="89dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/btn13Salario"
+        app:layout_constraintTop_toBottomOf="@+id/tvInputMargemConsig"
+        app:srcCompat="@drawable/btncalculadora" />
+
+    <TextView
+        android:id="@+id/tvInputSimulador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simulador"
+        android:textAlignment="center"
+        android:textColor="#020202"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnSimulador"
+        app:layout_constraintStart_toStartOf="@+id/btnSimulador"
+        app:layout_constraintTop_toBottomOf="@+id/btnSimulador" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

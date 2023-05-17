@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="boxTitleFGTS" type="id" />
+    <item name="tvTitleCalcFGTS" type="id" />
+    <item name="tvLabelInputSalBrut" type="id" />
+    <item name="etInputSalBrut" type="id" />
+    <item name="tvLabelInputSalAnt" type="id" />
+    <item name="etInputSalAnt" type="id" />
+    <item name="tvLabelDatInit" type="id" />
+    <item name="edInputDateInit" type="id" />
+    <item name="tvLabelDateFim" type="id" />
+    <item name="edInputDateFim" type="id" />
+    <item name="rbAddJuros" type="id" />
+    <item name="btnCalcFGTS" type="id" />
+    <item name="listViewResult" type="id" />
+    <item name="bgTitleTop" type="id" />
+    <item name="tvTitleCalcMargem" type="id" />
+    <item name="etInputParcelas" type="id" />
+    <item name="tvInputParcelas" type="id" />
+    <item name="etInputSalario" type="id" />
+    <item name="tvInputBenefSalario" type="id" />
+    <item name="boxREsult" type="id" />
+    <item name="guideline2" type="id" />
+    <item name="tvTitleBoxResult" type="id" />
+    <item name="tvResultMargemPermitida" type="id" />
+    <item name="tvTitleMargemPermitida" type="id" />
+    <item name="tvTextMargemPermitida" type="id" />
+    <item name="tvResultMargemDisponivel" type="id" />
+    <item name="textboxREsult3" type="id" />
+    <item name="textboxREsult4" type="id" />
+    <item name="btnCalcularMargem" type="id" />
+    <item name="btnVoltarMargem" type="id" />
+    <item name="tvTitle" type="id" />
+    <item name="tvEventos" type="id" />
+    <item name="tvValores" type="id" />
+    <item name="tvDepMensal" type="id" />
+    <item name="tvValDepMensal" type="id" />
+    <item name="tvMesContrib" type="id" />
+    <item name="tvValMesContrib" type="id" />
+    <item name="tvDepTotal" type="id" />
+    <item name="tvValDepTotal" type="id" />
+    <item name="tvDepFinal" type="id" />
+    <item name="tvValDepFinal" type="id" />
+</resources>
